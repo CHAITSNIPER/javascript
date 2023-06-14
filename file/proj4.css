@@ -1,0 +1,91 @@
+*{
+    box-sizing: inherit;
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+table,td{
+    border: 3px solid red;
+}
+.top{
+    background-color: white;
+    color: blue;
+}
+.game{
+    position: absolute;
+    right: 45%;
+    top : 25%;
+}
+td{
+    padding: 20px 20px 20px 20px;
+}
+.b{
+    background-color: maroon;
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+.b:hover{
+    background-color: bisque;
+    color: black;
+}
+
+.X{
+    left : 25%;
+    position: absolute;
+    color: darkcyan;
+    font-size: 4rem;
+}
+
+.O{
+    right : 25%;
+    position : absolute;
+    color: rosybrown;
+    font-size: 4rem;
+    z-index: -2;
+}
+h1{
+    color: greenyellow;
+    background: linear-gradient(to right, red, blue);
+    position: absolute;
+    right: 40%;
+}
+.start{
+    color: black;
+    background-color: red;
+    left: 20%;
+    top : 20%;
+    position: absolute;
+    cursor: pointer;
+    padding: 18px 18px 18px 18px;
+}
+.a{
+    color: black;
+    padding: 8px 8px 8px 8px;
+}
+.a:hoveR{
+    color: red;
+    background-color: black;
+}
+.color{
+    background-color: olivedrab;
+}
+.win{
+    background-color: white;
+    color: black;
+    position: relative;
+    top : 4rem;
+    font-size: 4rem;
+}
+.hidden{
+    display:none;
+}
+.restart{
+    color: red;
+    background-color: aqua;
+    position: absolute;
+    right : 20rem;
+    top : 10rem;
+    padding: 5px 5px 5px 5px;
+}

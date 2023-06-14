@@ -1,0 +1,55 @@
+.first{
+    font-size: 20;
+    color: white;
+    background-image: radial-gradient(red,blue);
+    padding: 13px 13px 13px 13px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.score{
+    background-color: maroon;
+    color: yellow;
+    font-size: 4rem;
+    padding: 20px 20px 20px 20px;
+
+    
+}
+
+.option{
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top: 4rem;
+    margin: 1.5rem;
+}
+.question{
+    position: absolute;
+    top: 15rem;
+    left: 25rem;
+    background-image: radial-gradient(brown,olive);
+    font-size: 3rem;
+    
+}
+.hidden{
+    display:none;
+}
+.option:hover{
+    background-color: black;
+    color: white;
+}
+.next{
+    background-color: red;
+    color: black;
+    left: 3rem;
+    padding : 12px 12px 12px 12px;
+    position:relative;
+}
+.submit{
+    position: absolute;
+    bottom: 3rem;
+    padding: 13px 13px 13px 13px;
+    color: white;
+    background-color: blue;
+}
+

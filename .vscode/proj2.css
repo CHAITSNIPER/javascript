@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding : 0; 
+    box-sizing: inherit;
+
+}
+
+body{
+    background-color: aquamarine;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    display: flex;
+    align-content: center;
+}
+.show-Modal{
+    background-color: black;
+    color: white;
+    padding : 2% 2% 2% 2%;
+    position : absolute;
+    left: 20%;
+    cursor: pointer;
+}
+.Show-Modal{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    position: absolute;
+    right: 45%;
+    padding : 2% 2% 2% 2%;
+    cursor: pointer;
+}
+.Show-modal{
+    background-color: black;
+    color: white;
+    position:absolute;
+    right: 20%;
+    padding: 2% 2% 2% 2%;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+
+h1{
+    justify-content: center;
+   left : 20rem;
+    position: relative;
+}
+
+.modal{
+    background-color: white;
+    color: blue;
+    position: absolute;
+    top: 7rem;
+    left: 2rem;
+    right: 2rem;
+    z-index: 10;
+}
+.overlay{
+    position:absolute;
+    backdrop-filter: blur(3px);
+    background-color:black;
+    z-index: 5;
+}
+
+.close{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+

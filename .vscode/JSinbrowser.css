@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+  font-family: fantasy;
+  color : white;
+  background-color: black;
+}
+header {
+    position:relative;
+    height: 35vh;
+    border-bottom: 7px solid white;
+}
+
+main{
+   height:65vh;
+   color: rgb(255, 255, 255);
+   display: flex;
+   margin-top:100px;
+   margin-bottom:100px;
+   align-items: center;
+}
+.left{
+    width:400px;
+    display:flex;
+    margin-left:20px;
+}
+.right{
+    position:absolute;
+    font-size: 200%;
+    right:20%;
+    border: 5px solid greenyellow;
+    padding : 13px 13px 13px 13px;
+}
+.head{
+    font-size: 300%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.between{
+    position:absolute;
+    right: 10%;
+    top:2rem;
+}
+.numb{
+    position:absolute; 
+    left : 45%;
+    top : 125%;
+    font-size : 400%;
+    color: black;
+    background-color: white;
+    padding: 13px 13px 13px 13px;
+}
+.again{
+    position:absolute;
+    top : 2rem;
+    left: 4rem;
+}
+
+.guess{
+    border: 5px solid red;
+    font-family:inherit;
+    color:white;
+    background-color: black;
+    font-size: 3rem;
+    width: 25rem;
+    text-align: center;
+    display: block;
+}
+
+.check{
+  color: white;
+  background-color: green ;
+  font-size: 2rem;
+}
+.check:hover{
+color: black;
+background-color: white;
+font-size:2rem;
+}

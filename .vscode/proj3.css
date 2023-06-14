@@ -1,0 +1,63 @@
+*{
+    box-sizing: inherit;
+}
+
+h1{
+    background-color: red;
+    padding:5px 5px 5px 5px;
+    color: yellow;
+}
+body{
+    background: radial-gradient(black,blue);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    background-color: yellow;
+    color: black;
+    opacity: 0.6;
+}
+
+li{
+    opacity:0.6;
+}
+li:hover{
+    opacity: 1;
+    color: white;
+    background-color: blue;
+}
+.cart{
+    background-color: aqua;
+}
+.cart:hover{
+    background-color: red;
+    color: yellow;
+}
+.add:hover{
+     color: white;
+     background-color: black;
+}
+.subtract:hover{
+    color: white;
+    background-color: black;
+}
+.buy{
+    background-color:red;
+    color: yellow;
+    position:relative;
+    top:2rem;
+}
+.buy:hover{
+    background-color: greenyellow;
+    color: black;   
+}
+.buyi{
+    background-color: pink;
+    color: blue;
+    position: relative;
+    top: 2rem;
+}
+
+
+
